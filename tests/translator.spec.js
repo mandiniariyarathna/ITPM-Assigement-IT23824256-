@@ -9,6 +9,12 @@ test.describe('Singlish → Sinhala Translator (Functional Coverage)', () => {
     });
   });
 
+
+
+
+
+  
+
   async function getInput(page) {
     const input = page.locator('textarea').first();
     await input.waitFor({ timeout: 30000 });
